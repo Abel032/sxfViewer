@@ -51,7 +51,7 @@ struct SxfProperty {
 	quint16 rulerInterval = 6;
 	quint16 framePerPage = 144;
 
-	std::array<quint16, 7> widgets = { 6,1,4,8,2,10,19 };
+	std::array<quint16, 7> widgets      = {0x06, 0x01, 0x04, 0x8, 0x02, 0x10, 0x19};
 	std::array<quint32, 7> visibilities = { 1,1,1,0,1,1,1 };
 
 	const qint32 getSize() { return 84; }
@@ -87,7 +87,7 @@ struct SxfCell {
 };
 struct SxfColumn {
 	QString name;// TODO:GBK? SHIFT_JIS? UTF-8?
-	// ¡°-BG¡±Îª±³¾°±£ÁôÖµ£¬²»¼ÆËã½ølayer×ÜÊýÖÐ
+	// ï¿½ï¿½-BGï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½layerï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	quint32 isVisible = 1;
 	quint32 resv = 10;
 	QList<SxfCell> cells;
