@@ -18,13 +18,13 @@
 
 ## 项目结构
 
-- `/home/runner/work/sxfViewer/sxfViewer/main.cpp`：程序入口。
-- `/home/runner/work/sxfViewer/sxfViewer/sxfviewer.*`：主窗口与交互逻辑。
-- `/home/runner/work/sxfViewer/sxfViewer/sxfmodel.*`：表格模型与单元格编辑规则。
-- `/home/runner/work/sxfViewer/sxfViewer/sxfmergeheaderview.*`：双层分组合并表头绘制。
-- `/home/runner/work/sxfViewer/sxfViewer/sxfprocessor.*`：SXF 二进制读写与数据结构定义。
-- `/home/runner/work/sxfViewer/sxfViewer/sxf.md`：SXF 格式字段研究笔记。
-- `/home/runner/work/sxfViewer/sxfViewer/test.sxf`：示例文件。
+- `main.cpp`：程序入口。
+- `sxfviewer.*`：主窗口与交互逻辑。
+- `sxfmodel.*`：表格模型与单元格编辑规则。
+- `sxfmergeheaderview.*`：双层分组合并表头绘制。
+- `sxfprocessor.*`：SXF 二进制读写与数据结构定义。
+- `sxf.md`：SXF 格式字段研究笔记。
+- `test.sxf`：示例文件。
 
 ## 构建环境
 
